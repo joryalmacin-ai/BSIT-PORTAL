@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSIT Portal - Cebu Technological University</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <style>
+        /* Basic CSS for layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #004080;
+            color: white;
+            padding: 1rem 0;
+        }
+        header nav {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+        }
+        header nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            background-color: #0073e6;
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+        }
+        .section {
+            padding: 3rem 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .section h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+        .card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            flex: 1 1 250px;
+            max-width: 300px;
+        }
+        footer {
+            background-color: #004080;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="index.php">Home</a>
+            <a href="announcements.php">Announcements</a>
+            <a href="events.php">Events</a>
+            <a href="achievement.php">Achievements</a>
+            <a href="faculty.php">Faculty</a>
+            <a href="organizations.php">Organizations</a>
+            <a href="inquiry.php">Inquiry</a>
+            <a href="contact.php">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to the BSIT Portal</h1>
+        <p>Your gateway to updates, events, achievements, and all things BSIT at CTU Tabuelan Campus.</p>
+    </section>
+
+    <!-- Announcements Section -->
+    <section class="section">
+        <h2>Latest Announcements</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Announcement Title 1</h3>
+                <p>Details about this announcement. Click <a href="announcements.php">here</a> to read more.</p>
+            </div>
+            <div class="card">
+                <h3>Announcement Title 2</h3>
+                <p>Details about this announcement. Click <a href="announcements.php">here</a> to read more.</p>
+            </div>
+            <div class="card">
+                <h3>Announcement Title 3</h3>
+                <p>Details about this announcement. Click <a href="announcements.php">here</a> to read more.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="section" style="background-color:#e6f0ff;">
+        <h2>Upcoming Events</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Event 1</h3>
+                <p>Brief description of the event. Click <a href="events.php">here</a> for more details.</p>
+            </div>
+            <div class="card">
+                <h3>Event 2</h3>
+                <p>Brief description of the event. Click <a href="events.php">here</a> for more details.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Cebu Technological University - Tabuelan Extension Campus. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
